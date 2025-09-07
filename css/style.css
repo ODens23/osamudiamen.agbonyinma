@@ -1,12 +1,15 @@
+/*=========================
+    Global Styles
+==========================*/
+
 body{
     margin: 0;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Tangerine', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h1{
     color: #66bfbf;
-    position: relative;
     font-size: 50px;
     left: -150px;
 }
@@ -30,70 +33,76 @@ hr {
     border-width: 10px;
 }
 
-.btn {
-    position: relative;
-    top: 40px;
-    background-color: #11999e;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 10px;
-    font-weight: 900;
-    text-decoration-line: none;
+/*=========================
+    Top Section Styles
+==========================*/
+
+.top-section {
+    background-color: #cff7ef;
+    position: static;
+    padding-top: 100px;
+    height: 600px;
+    width: 100%;
 }
 
-
-.text p {
+.cloud-top {
     position: relative;
-    font-size: 20px;
-    left: -150px;
-    bottom: 10px;
-    font-family: monospace;
+    top: -40px;
+    width: 30%;
+    float: right;
+}
+
+.cloud-bottom {
+    position: relative;
+    bottom: -140px;
+    float: left;
+    width: 30%;
+}
+
+.mountain {
+    position: relative;
+    top: 268px;
+    float: inherit;
+}
+
+.text {
+    position: absolute; 
+    width: 100%;   
+}
+
+.text h1 {
+    position: relative;
+    font-family: 'Tangerine', sans-serif;
+    color: #11999e;
+    font-size: 110px;
+    font-weight: normal;
+    left: -10px;
+    top: -20px;
 }
 
 .text h2 {
     color: #000;
-    position: absolute;
-    left: 200px;
-    bottom: -40px;
-}
-
-.top-section {
-    background-color: #cff7ef;
     position: relative;
-    padding-top: 100px;
-    height: 490px;
-}
+    font-size: 20px;
+    font-weight: normal;
+    bottom: 90px;
+} 
+
+/*=========================
+    Middle Section Styles
+==========================*/
 
 .profile {
     padding-bottom: 50px;
 }
-.profile h2 {
-    font-size: 30px;
+
+.profile p {
+    width: 50%;
+    margin: 0 auto;
+    line-height: 1.8;
+    text-align: center;
 }
 
-.cloud-top {
-    position:absolute;
-    top: 80px;
-    right: 200px;
-}
-
-.text {
-    position: absolute;
-    top: 150px;
-    left: 400px;
-}
-
-.cloud-bottom {
-    position: absolute;
-    bottom: 250px;
-    left: 200px;
-}
-
-.mountain {
-    position: absolute;
-    top: 340px;
-    left: 300px;
-}
 
 .skills {
     padding-top: 50px;
@@ -131,4 +140,76 @@ hr {
     position: relative;
     padding-top: 100px;
     /* height: 490px; */
+}
+
+/*=========================
+    Contact Me Section Styles
+==========================*/
+.contact-me {
+    height: 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*=========================
+    Contact Button Styles
+==========================*/
+
+.contact_btn {
+    position: relative;
+    top: 40px;
+    padding-top: 30px;
+    background-color: #11999e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.contact_btn:hover {
+    background-color: #cff7ef;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 900;
+}   
+
+
+/*=========================
+    Other Button Styles
+==========================*/
+.footer-link {
+    text-decoration: none;
+    color: #11999e;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #11999e;
+}
+.footer-link:hover {
+    background-color: #11999e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 900;
+}
+/*=========================
+    Footer Styles
+==========================*/
+footer {
+    position: static;
+    height: 20px;
+    width: 100%;
+    background-color: #cff7ef;
+    color: white;
+    background-color: #000;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+footer p {
+    position: relative;
+    top: -10px;
+    color: white;
+    font-size: 15px;
 }
