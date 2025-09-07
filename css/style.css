@@ -108,8 +108,10 @@ hr {
 
 
 .skills {
+    font-family: 'Trebuchet MS', sans-serif;
     padding-top: 50px;
 }
+
 .middle-section {
     position: relative;
     padding-top: 100px;
