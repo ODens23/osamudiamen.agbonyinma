@@ -117,11 +117,14 @@ hr {
 }
 
 .skill-row {
-    font-family: 'Trebuchet MS', sans-serif;
     width: 50%;
     margin: 100px auto 100px auto;
     line-height: 2;
     text-align: left;
+}
+
+.skill-row p {
+    font-family:'Trebuchet MS', sans-serif;
 }
 
 .coding {
